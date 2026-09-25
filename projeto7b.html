@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Cadastro de Usuário</title>
+</head>
+
+
+<body>
+
+  <header>
+    <h1>Formulário de Cadastro</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#cadastro">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="cadastro">
+    <h2>Preencha seus dados para criar uma conta</h2>
+
+    <form action="#" method="post">
+
+      <!-- Nome -->
+      <label for="nome">Nome completo:</label><br>
+      <input type="text" id="nome" name="nome"><br><br>
+
+      <!-- E-mail -->
+      <label for="email">E-mail:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <!-- Senha -->
+      <label for="senha">Senha:</label><br>
+      <input type="password" id="senha" name="senha"><br><br>
+
+      <!-- Gênero -->
+      <label for="genero">Gênero:</label><br>
+      <select id="genero" name="genero">
+        <option value="">Selecione uma opção</option>
+        <option value="feminino">Feminino</option>
+        <option value="masculino">Masculino</option>
+        <option value="outro">Outro / Prefiro não informar</option>
+      </select><br><br>
+
+      <label>Interesses:</label><br>
+      <input type="checkbox" id="tecnologia" name="interesses" value="tecnologia">
+      <label for="tecnologia">Tecnologia</label><br>
+
+      <input type="checkbox" id="esportes" name="interesses" value="esportes">
+      <label for="esportes">Esportes</label><br>
+
+      <input type="checkbox" id="viagens" name="interesses" value="viagens">
+      <label for="viagens">Viagens</label><br>
+
+      <input type="checkbox" id="musica" name="interesses" value="musica">
+      <label for="musica">Música</label><br><br>
+
+      <label for="biografia">Breve biografia:</label><br>
+      <textarea id="biografia" name="biografia" rows="5" cols="40"></textarea><br><br>
+
+      <input type="submit" value="Cadastrar">
+
+    </form>
+  </section>
+
+</body>
+</html>
